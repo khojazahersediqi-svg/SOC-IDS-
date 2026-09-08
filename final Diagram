@@ -1,0 +1,61 @@
+BlueTeam-Attack-Map/
+│
+├── README.md
+├── LICENSE
+├── SECURITY.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── .gitignore
+├── requirements.txt
+│
+├── docs/
+│   ├── 01-project-overview.md
+│   ├── 02-architecture.md
+│   ├── 03-attack-lifecycle.md
+│   ├── 04-mitre-attack-mapping.md
+│   ├── 05-detection-methodology.md
+│   ├── 06-log-sources.md
+│   ├── 07-investigation-workflow.md
+│   ├── 08-mitigation-strategy.md
+│   └── 09-future-improvements.md
+│
+├── data/
+│   ├── attack-techniques.json
+│   ├── attack-tactics.json
+│   ├── detection-rules.json
+│   ├── log-sources.json
+│   └── mitigations.json
+│
+├── src/
+│   ├── main.py
+│   ├── attack_map.py
+│   ├── detector.py
+│   ├── correlator.py
+│   └── utils.py
+│
+├── detections/
+│   ├── authentication/
+│   ├── endpoint/
+│   ├── network/
+│   ├── dns/
+│   └── cloud/
+│
+├── scenarios/
+│   ├── phishing.md
+│   ├── credential-compromise.md
+│   ├── lateral-movement.md
+│   └── data-exfiltration.md
+│
+├── reports/
+│   ├── sample-incident-report.md
+│   └── detection-coverage.md
+│
+├── screenshots/
+│   ├── attack-map.png
+│   ├── dashboard.png
+│   ├── detection-alert.png
+│   └── investigation.png
+│
+└── tests/
+    ├── test_detector.py
+    └── test_correlator.py
