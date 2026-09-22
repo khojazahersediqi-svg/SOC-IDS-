@@ -1,3 +1,6 @@
+SOC-IDS
+
+
 BlueTeam Attack Map
 
 A Defensive Attack Visualization, Detection Mapping, and SOC Investigation Framework
